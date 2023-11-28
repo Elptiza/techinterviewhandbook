@@ -35,10 +35,10 @@ def two_sum_long (nums, target):
             if target == nums[i]+nums[k]:
                 return print([i, k])
 
-# nums = [2,7,11,15]
-# target = 9
-# two_sum(nums, target)
-nums = [3,2,4]
-target = 6
-# two_sum_long(nums, target)
+nums = [2,7,11,15]
+target = 9
 two_sum(nums, target)
+# nums = [3,2,4]
+# target = 6
+# # two_sum_long(nums, target)
+# two_sum(nums, target)
